@@ -391,7 +391,6 @@ domain_suffix_set:
   - apk-dl.com
   - apkpure.com
   - appdownloader.net
-  - apple-dns.net
   - appshopper.com
   - arcgis.com
   - archive.is
@@ -629,6 +628,7 @@ domain_suffix_set:
   - mashable.com
   - mathjax.org
   - maven.org
+  - mediawiki.org
   - medium.com
   - mega.co.nz
   - mega.nz
@@ -904,13 +904,24 @@ domain_suffix_set:
   - westca.com
   - westpoint.edu
   - whatbrowser.org
+  - wikibooks.org
+  - wikidata.org
+  - wikifunctions.org
   - wikileaks-forum.com
   - wikileaks.info
   - wikileaks.org
   - wikimedia.org
+  - wikimediafoundation.org
+  - wikinews.org
   - wikipedia.com
   - wikipedia.org
+  - wikiquote.org
+  - wikisource.org
+  - wikispecies.org
+  - wikiversity.org
+  - wikivoyage.org
   - wikiwand.com
+  - wiktionary.org
   - wn.com
   - wordpress.com
   - workflow.is

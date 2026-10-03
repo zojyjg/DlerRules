@@ -5,12 +5,13 @@
   - RULE-SET,Reject Non-IP Drop,REJECT
   - RULE-SET,Reject IP,REJECT
 
+  - RULE-SET,AI Suite,Proxy
+  - RULE-SET,Apple China,DIRECT
   - RULE-SET,Domestic,Domestic
   - RULE-SET,Domestic IP,Domestic
   - RULE-SET,China IP,Domestic
 
   - DOMAIN,apps.apple.com,Proxy
-  - DOMAIN-SUFFIX,ls.apple.com,DIRECT
   - DOMAIN-SUFFIX,store.apple.com,DIRECT
   - RULE-SET,Apple Push,Proxy
   - RULE-SET,Apple,Proxy
@@ -62,6 +63,19 @@ rule-providers:
     interval: 86400
     url: 'https://ruleset.skk.moe/Clash/ip/reject.txt'
     path: ./Rules/Reject_IP
+  AI Suite:
+    type: http
+    behavior: classical
+    interval: 86400
+    url: 'https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/AI%20Suite.yaml'
+    path: ./Rules/AI Suite
+  Apple China:
+    type: http
+    behavior: classical
+    format: text
+    interval: 86400
+    url: 'https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt'
+    path: ./Rules/Apple_China
   Domestic:
     type: http
     behavior: classical

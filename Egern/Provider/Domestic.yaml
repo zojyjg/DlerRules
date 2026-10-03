@@ -24,6 +24,12 @@ domain_suffix_set:
   # > CN
   - cn
 
+  # > Oray / Sunlogin
+  - aweray.com
+  - oray.com
+  - oray.net
+  - sunlogin.net
+
   # > Other domains
   - 10010.com
   - 12306.com
@@ -41,6 +47,7 @@ domain_suffix_set:
   - acfun.tv
   - adobesc.com
   - aiaa.org
+  - aiqicha.com
   - air-matters.com
   - air-matters.io
   - aixifan.com
@@ -169,10 +176,12 @@ domain_suffix_set:
   - pniao.com
   - privatehd.to
   - qbox.me
+  - qcc.com
   - qcloud.com
   - qdaily.com
   - qdmm.com
   - qhimg.com
+  - qichacha.com
   - qidian.com
   - qihucdn.com
   - qin.io
@@ -186,6 +195,8 @@ domain_suffix_set:
   - qqurl.com
   - rarbg.to
   - redacted.ch
+  - rednotecdn.com
+  - rnote.com
   - rrmj.tv
   - ruguoapp.com
   - servicewechat.com
@@ -268,6 +279,9 @@ domain_suffix_set:
   # > Prior
   - alphassl.com
 
+  # > RayLink
+  - raylink.live
+
   # > RRYS
   - p4pfile.com
   - zmzfile.com
@@ -275,6 +289,9 @@ domain_suffix_set:
   # > Sony
   - sony.com
   - sonyentertainmentnetwork.com
+
+  # > ToDesk
+  - todesk.com
 
 domain_set:
   # > Prior
