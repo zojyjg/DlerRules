@@ -33,6 +33,12 @@ domain_suffix_set:
   - claude.com
   - claudeusercontent.com
 
+  # > Cohere
+  # Hong Kong is a restricted location in the SaaS agreement
+  # https://cohere.com/saas-agreement
+  - cohere.ai
+  - cohere.com
+
   # > Cursor
   # Provider region restrictions also apply to models in Cursor
   # https://cursor.com/docs/account/regions
@@ -111,6 +117,12 @@ domain_suffix_set:
   # > JetBrains
   - jetbrains.ai
 
+  # > Kiro
+  # Paid-plan availability does not override model providers' region restrictions
+  # https://kiro.dev/faq/
+  # https://kiro.dev/docs/privacy-and-security/firewalls/
+  - kiro.dev
+
   # > Meta AI
   - meta.ai
 
@@ -136,6 +148,13 @@ domain_suffix_set:
 
   # > Sora
   - sora.com
+
+  # > TRAE International
+  # Hong Kong is absent from the current service availability list
+  # https://docs.trae.ai/ide/supported-countries-and-regions
+  # https://docs.trae.ai/ide/troubleshoot-general-issues
+  - trae.ai
+  - traeapi.us
 
   # > Windsurf
   - codeium.com
@@ -217,6 +236,13 @@ domain_set:
   # > Google Antigravity / Gemini Code Assist
   # Availability: https://antigravity.google/docs/faq
   - cloudcode-pa.googleapis.com
+  - daily-cloudcode-pa.googleapis.com
+  - daily-cloudcode-pa.sandbox.googleapis.com
+
+  # > Google Chrome DevTools AI assistance
+  # Hong Kong is excluded from the supported locations
+  # https://developer.chrome.com/docs/devtools/ai-assistance/get-started
+  - aida.googleapis.com
 
   # > Google Gemini shared API
   # Shared Google API loader
@@ -224,6 +250,12 @@ domain_set:
 
   # > Google Jules
   - jules.googleapis.com
+
+  # > Google Labs / Project Genie
+  # Hong Kong is absent from the Project Genie availability list (2026-10-12)
+  # Shared host: this also routes other Google Labs paths through the AI egress
+  # https://labs.google/fx/faq
+  - labs.google
 
   # > Google Opal
   # Availability: https://developers.google.com/opal/faq
@@ -238,16 +270,27 @@ domain_set:
   - account.jetbrains.com
   - oauth.account.jetbrains.com
 
+  # > Kiro
+  # https://kiro.dev/docs/privacy-and-security/firewalls/
+  - q.eu-central-1.amazonaws.com
+  - q.us-east-1.amazonaws.com
+
   # > Microsoft Copilot shared sign-in
   # Shared Microsoft sign-in hosts
   - login.live.com
   - login.microsoftonline.com
 
+  # > TRAE International
+  # Keep shared mchost.guru limited to the international API hosts
+  # https://docs.trae.ai/ide/troubleshoot-general-issues
+  - trae-api-sg.mchost.guru
+  - trae-api-us.mchost.guru
+
 # > ChatGPT Voice
 # Direct-IP UDP voice needs separate IP rules and a UDP-capable outbound
 # Current ranges: https://openai.com/chatgpt-voice.json
 
-# ChatGPT Voice: https://openai.com/chatgpt-voice.json (verified 2026-10-02)
+# ChatGPT Voice: https://openai.com/chatgpt-voice.json (verified 2026-10-12)
 no_resolve: true
 ip_cidr_set:
   - 102.37.57.54/32
