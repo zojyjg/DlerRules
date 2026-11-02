@@ -131,7 +131,6 @@ domain_suffix_set:
   - chunboimg.com
   - clouddn.com
   - cloudsigma.com
-  - cloudxns.net
   - cmct.tv
   - cmfu.com
   - cnlang.org
@@ -196,7 +195,6 @@ domain_suffix_set:
   - jianshu.com
   - jianshu.io
   - jianshuapi.com
-  - jiathis.com
   - jomodns.com
   - jsboxbbs.com
   - kimi.com
@@ -260,7 +258,6 @@ domain_suffix_set:
   - qq.net
   - qqmail.com
   - qqurl.com
-  - rarbg.to
   - redacted.ch
   - rednotecdn.com
   - rnote.com
@@ -282,9 +279,7 @@ domain_suffix_set:
   - soku.com
   - soso.com
   - sspai.com
-  - startssl.com
   - suning.com
-  - symcd.com
   - taobao.com
   - tawk.link
   - tawk.to
@@ -295,8 +290,6 @@ domain_suffix_set:
   - tmall.com
   - tmzvps.com
   - totheglory.im
-  - trello.com
-  - trellocdn.com
   - ttmeiju.com
   - tudou.com
   - udache.com
@@ -318,7 +311,6 @@ domain_suffix_set:
   - wkcdn.com
   - wps.com
   - wpscdn.com
-  - xdrig.com
   - xhostfire.com
   - xhscdn.com
   - xiaohongshu.com

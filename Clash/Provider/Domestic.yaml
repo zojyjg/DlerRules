@@ -132,7 +132,6 @@ payload:
   - DOMAIN-SUFFIX,chunboimg.com
   - DOMAIN-SUFFIX,clouddn.com
   - DOMAIN-SUFFIX,cloudsigma.com
-  - DOMAIN-SUFFIX,cloudxns.net
   - DOMAIN-SUFFIX,cmct.tv
   - DOMAIN-SUFFIX,cmfu.com
   - DOMAIN-SUFFIX,cnlang.org
@@ -197,7 +196,6 @@ payload:
   - DOMAIN-SUFFIX,jianshu.com
   - DOMAIN-SUFFIX,jianshu.io
   - DOMAIN-SUFFIX,jianshuapi.com
-  - DOMAIN-SUFFIX,jiathis.com
   - DOMAIN-SUFFIX,jomodns.com
   - DOMAIN-SUFFIX,jsboxbbs.com
   - DOMAIN-SUFFIX,kimi.com
@@ -261,7 +259,6 @@ payload:
   - DOMAIN-SUFFIX,qq.net
   - DOMAIN-SUFFIX,qqmail.com
   - DOMAIN-SUFFIX,qqurl.com
-  - DOMAIN-SUFFIX,rarbg.to
   - DOMAIN-SUFFIX,redacted.ch
   - DOMAIN-SUFFIX,rednotecdn.com
   - DOMAIN-SUFFIX,rnote.com
@@ -283,9 +280,7 @@ payload:
   - DOMAIN-SUFFIX,soku.com
   - DOMAIN-SUFFIX,soso.com
   - DOMAIN-SUFFIX,sspai.com
-  - DOMAIN-SUFFIX,startssl.com
   - DOMAIN-SUFFIX,suning.com
-  - DOMAIN-SUFFIX,symcd.com
   - DOMAIN-SUFFIX,taobao.com
   - DOMAIN-SUFFIX,tawk.link
   - DOMAIN-SUFFIX,tawk.to
@@ -296,8 +291,6 @@ payload:
   - DOMAIN-SUFFIX,tmall.com
   - DOMAIN-SUFFIX,tmzvps.com
   - DOMAIN-SUFFIX,totheglory.im
-  - DOMAIN-SUFFIX,trello.com
-  - DOMAIN-SUFFIX,trellocdn.com
   - DOMAIN-SUFFIX,ttmeiju.com
   - DOMAIN-SUFFIX,tudou.com
   - DOMAIN-SUFFIX,udache.com
@@ -319,7 +312,6 @@ payload:
   - DOMAIN-SUFFIX,wkcdn.com
   - DOMAIN-SUFFIX,wps.com
   - DOMAIN-SUFFIX,wpscdn.com
-  - DOMAIN-SUFFIX,xdrig.com
   - DOMAIN-SUFFIX,xhostfire.com
   - DOMAIN-SUFFIX,xhscdn.com
   - DOMAIN-SUFFIX,xiaohongshu.com
